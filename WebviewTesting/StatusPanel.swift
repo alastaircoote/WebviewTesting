@@ -144,6 +144,7 @@ struct StatusPanel: View {
                 
                 
                 Section(header: Text("Webview")) {
+                    Text("When the service worker is installed this webview will load the page locally with no network connectivity required. Without the worker it will load remotely. No code change is required on the native side.")
                     NavigationLink("Open webview at root URL") {
                         WebviewView(webviewManager: self.webviewManager)
                     }
