@@ -1,17 +1,19 @@
 //
-//  WebviewFiddlingApp.swift
-//  WebviewFiddling
+//  WebviewTestingApp.swift
+//  WebviewTesting
 //
 //  Created by Alastair on 3/28/23.
 //
 
 import SwiftUI
+import WebKit
 
 @main
-struct WebviewFiddlingApp: App {
+struct WebviewTestingApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StatusPanel()
         }
     }
 }
